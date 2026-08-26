@@ -1,0 +1,32 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# === Model weights (large, re-downloadable) ===
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.engine
+
+# === Generated outputs ===
+outputs/
+
+# === Caches & logs ===
+data/GT/gt_cache.json
+*.log
+failed_frames.log
+
+# === IDE / editor ===
+.vscode/
+.idea/
+*.swp
+
+# === OS junk ===
+.DS_Store
+Thumbs.db
